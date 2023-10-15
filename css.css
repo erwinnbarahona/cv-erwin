@@ -144,6 +144,25 @@ html{
 
 }
 
+/*CSS EFECTO CONSOLA*/
+
+.sobremi .contenido-seccion .contenido-consola{
+    font-weight: normal;
+    font-size: 50px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    
+}   
+
+.sobremi .contenido-seccion .consola-bajo{
+    display:inline-block;
+    position:relative;
+    left:10px;
+}
+
+/*FIN CSS EFECTO CONSOLA*/
+
 .sobremi .contenido-seccion h3{
     text-transform: uppercase;
     font-size: 30px;
