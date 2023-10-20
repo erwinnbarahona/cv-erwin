@@ -37,6 +37,7 @@ function consoleText(words, id, colors) {
       letterCount += x;
     }
   }, 120)
+
   window.setInterval(function() {
     if (visible === true) {
       con.className = 'consola-bajo hidden'
