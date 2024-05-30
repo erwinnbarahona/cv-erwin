@@ -7,13 +7,23 @@
 
 }
 
+a{
+    text-decoration: none;
+}
+
+span.enlaces {
+    color:white;
+    text-decoration: none;
+
+}
+
 html{
     scroll-behavior: smooth;
 
 }
 
 .inicio{
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("./img/fondo.jpg");
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("./img/imgCabecera.jpg");
     background-size: cover;
     background-position: center center;
     color: white;
@@ -37,7 +47,7 @@ html{
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 60px;
-    background-color: rgb(39, 148, 112);
+    background-color: rgb(18,112,198);
     padding: 15px;
     border-radius: 10px;
     text-align: left;
@@ -57,7 +67,7 @@ html{
 
 .inicio .contenido-seccion header .nav-bar{
     position: fixed;
-    background-color: rgb(39, 148, 112);
+    background-color: rgb(18,112,198);
     font-size: 20px;
     width: 50px;
     height: 50px;
@@ -95,9 +105,9 @@ html{
 .inicio .contenido-seccion .info .redes a{
     display: inline-block;
     text-decoration: none;
-    background-color: white;
-    color: rgb(39, 148, 112);
-    border: 1px solid rgb(39, 148, 112);
+    background-color: rgb(22, 24, 26);
+    color: rgb(18,112,198);
+    border: 1px solid rgb(18,112,198);
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -108,9 +118,10 @@ html{
 }
 
 .inicio .contenido-seccion .info .redes a:hover{
-    color: white;
-    background-color: black;
+    color: rgb(22, 24, 26);
+    background-color: rgb(18,112,198);
     box-shadow: 0 0 20px white;
+    border: 1px solid rgb(22, 24, 26);
 
 }
 
@@ -121,7 +132,7 @@ html{
 .inicio .contenido-seccion .foto img{
     max-width: 200px;
     border-radius: 50%;
-    border: 5px solid rgb(39, 148, 112);
+    border: 5px solid rgb(18,112,198);
     position: absolute;
     left: 50%;
     top: 10px;
@@ -131,9 +142,10 @@ html{
 /*SOBREMI*/
 
 .sobremi{
-    background-color: white;
+    background-color: rgb(22,24,26);
     padding: 120px 0 100px 0;
     text-align: center;
+    color: white;
 
 }
 
@@ -170,7 +182,7 @@ html{
 }
 
 .sobremi .contenido-seccion .especial{
-    color: black;
+    color: white;
     font-weight: bold;
     margin-top: 15px;
 
@@ -196,11 +208,11 @@ html{
 }
 
 .sobremi .contenido-seccion .col i{
-    color: rgb(39, 148, 112);
+    color: rgb(18,112,198);
     display: inline-block;
     width: 40px;
     height: 40px;
-    border: 2px solid rgb(39, 148, 112);
+    border: 2px solid rgb(18,112,198);
     line-height: 40px;
     border-radius: 50%;
 }
@@ -252,9 +264,10 @@ html{
 
 /*RESUMEN*/
 .resumen {
-    background-color: white;
+    background-color: rgb(22, 24, 26);;
     padding: 140px 0 100px 0;
     text-align: center;
+    color: white;
 
 }
 
@@ -285,9 +298,9 @@ html{
 
 .resumen .contenido-seccion .info .col .titulo{
     display: inline-block;
-    color: rgb(39, 148, 112);
+    color: rgb(18,112,198);
     font-weight: bold;
-    border: 2px solid  rgb(39, 148, 112);
+    border: 2px solid  rgb(18,112,198);
     padding: 10px ;
 
 }
@@ -300,7 +313,7 @@ html{
 
 .resumen .contenido-seccion .info .col table .datos{
     width: 40%;
-    border-bottom: 1px solid rgb(39, 148, 112);
+    border-bottom: 1px solid rgb(18,112,198);
 
 }
 
@@ -321,7 +334,7 @@ html{
 }
 
 .resumen .contenido-seccion .info .col table .descripcion{
-    border-left: 1px solid rgb(39, 148, 112);
+    border-left: 1px solid rgb(18,112,198);
     padding-left: 20px;
 
 }
@@ -360,7 +373,7 @@ html{
 }
 
 .contacto .contenido-seccion .fila .col h2{
-    color: rgb(39, 148, 112);   
+    color: rgb(18,112,198);   
 
 }
 
